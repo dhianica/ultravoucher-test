@@ -72,7 +72,7 @@
     SELECT a.id, a.name, b.name parent_name FROM parents AS a
     LEFT JOIN parents AS b ON a.parent_id = b.id
   ```
-  #### RESULT
+  #### Result
   
   ![](https://gifyu.com/image/SnIE5)
   <a href="https://gifyu.com/image/SnIE5"><img src="https://s11.gifyu.com/images/result2.png" alt="result2.png" border="0" /></a>
